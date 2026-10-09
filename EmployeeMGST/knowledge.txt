@@ -1,0 +1,12 @@
+Assignment: Create Product Model Using List and Perform Major LINQ Queries
+
+Architecture:
+Models      -> Product model
+Operations  -> IProductOperation interface
+Service     -> ProductOperation implementation and LINQ queries
+UI          -> Main program and sample product data
+
+LINQ covered:
+Where, Select, OrderBy, OrderByDescending, ThenBy, FirstOrDefault,
+LastOrDefault, Any, All, Count, Sum, Average, Min, Max, GroupBy,
+Distinct, Skip, Take, ToList.
